@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* General styles */
+.body_owner {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header_owner {
+    background-image: url("./images/h3img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .nav_owner ul {
+    list-style-type: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 35px;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+  }
+  h1{
+    color: darksalmon;
+    font-family: "Briem Hand", cursive;
+    font-size: 75px;
+  }
+  .nav_owner ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav_owner ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  button{
+    cursor: pointer;
+  }
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* House listing styles */
+  .house-container-owner {
+    display: flex;
+    float: inline-start;
+    margin-bottom: 20px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: auto; /* Ensure the width adjusts based on content */
+  }
+  .house-container-owner img {
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .house-details-owner {
+    padding: 20px;
+    flex-grow: 1; /* Allow details to take up remaining space */
+    /* border: 2px solid black ; */
+    color: black;
+  }
+  .house-details-owner h3{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 0;
+  }
+  
+  
+  
+  /* Other houses */
+  /* .other-houses { 
+    display: flex;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: auto;
+  }
+  .other-house h3{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 0;
+  }
+  .other-houses img{
+    width: 250px;  Adjust the width as needed 
+    height: 200px;
+  }
+  .other-house ul{
+    list-style-type: disc;
+    text-align: left;
+  }
+  
+  .other-house {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    padding: 20px;
+    flex-grow: 1; 
+  }
+   */

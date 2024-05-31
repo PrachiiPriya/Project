@@ -1,0 +1,135 @@
+.body_home {
+    font-family: Arial, sans-serif;
+    background-image: url('./images/h1img.jpg');
+    backdrop-filter: blur(20px);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .h1_home{
+    
+    text-align: center;
+    font-family: "Briem Hand", cursive;
+    font-size: 60px;
+    color: darksalmon;
+    padding: 0;
+  }
+  .header_home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .nav_home ul {
+    list-style-type: none;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 11px;
+    border: 3px solid purple;
+  }
+  
+  .nav_home ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+  
+  .nav_home ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav_home ul li a {
+    color: burlywood;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 50px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .listing-grid {
+    display: flex;
+    color: palegoldenrod;
+    font-family: "Pacifico", cursive;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  h2{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: palegoldenrod;
+  }
+  
+  .listing-item {
+    flex-basis: calc(33.333% - 10px);
+    font-family: "Pacifico", cursive;
+    color: palegoldenrod;
+    margin-bottom: 10px;
+    border: 1px burlywood;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .listing-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .listing-item h3 {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 5px;
+  }
+  
+  .listing-item p {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 14px;
+    color: palegoldenrod;
+  }
+  .foo{
+    display: block;
+    background-color: purple;
+    font-family: "Pacifico", cursive;
+    font-size: 14px;
+    color: palegoldenrod;
+    text-align: center;
+    font-size: 25px;
+  }
+  .about{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: gray;
+    height: 400px;
+    width: 100%;
+  }
+  .about img{
+    padding: 20px;
+    margin: 20px;
+  }
+  .one ul{
+    display: grid;
+    list-style-type: none;
+    grid-gap: 40px;
+  }
